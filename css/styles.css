@@ -1,0 +1,124 @@
+/*styles.css*/
+
+html,
+body {
+    height: 100%;
+}
+
+.brown {
+    color: saddlebrown;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+
+/*Cover*/
+
+#cover {
+    background: #222 url('../img/brwonJacketCamera.jpg') center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.form-group {
+    padding: 0 .75rem 0 0;
+}
+
+#cover-caption {
+    width: 100%
+}
+
+.cover-title {
+    padding: 0 65px;
+}
+
+.card {
+    padding: 1rem;
+    margin: 0 1rem;
+    border: none;
+}
+
+h6.card-subtitle {
+    margin-bottom: .5rem;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+.section-content h2,
+.section-content p {
+    text-align: center;
+}
+
+
+/*About*/
+
+#about {
+    background: url('../img/brownJacketCurb.jpg') center no-repeat;
+    background-size: cover;
+}
+
+#about h3,
+h5 {
+    text-align: center;
+}
+
+.about-text {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 2rem;
+}
+
+.p-3 {
+    background-color: saddlebrown;
+}
+
+.social-buttons a button {
+    margin: 3px;
+}
+
+
+/*Footer*/
+
+.blockquote-footer {
+    color: #fff;
+}
+
+#footer-main {
+    background: #222;
+    color: #fff;
+    font-size: .8rem;
+    padding: 2.5rem 0;
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 900px) {
+    .form-email
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #carousel {
+        display: none;
+    }
+    .social-buttons a button {
+        display: block;
+        margin: 10px auto;
+    }
+    
+}
